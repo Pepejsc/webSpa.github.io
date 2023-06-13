@@ -1,4 +1,11 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  width: 100%;
+  height: 100%;
   margin: 0;
 }
 
@@ -86,8 +93,31 @@ input {
 /*para el container de las cartas*/
 .container-cartas{
 	width: 100%;
-	height: 250px;
+	height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+
+h2{
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  background-color: #a3a656;
+  width: 350px;
+  height: 70px;
+  margin-bottom: 0;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
 /*----------------------------*/
 
 /*parte de beneficios*/
@@ -99,6 +129,13 @@ input {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
 }
 
 .circle {
